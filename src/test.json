@@ -1,0 +1,1014 @@
+{
+  "projects": [
+    {
+      "project_id": "9056513063d7a66e6cb3e4.49938996",
+      "project_type": "localization_files",
+      "name": "AdobeXD",
+      "description": "",
+      "created_at": "2023-01-30 11:13:50 (Etc/UTC)",
+      "created_at_timestamp": 1675077230,
+      "created_by": 162459,
+      "created_by_email": "arturs.skutans@lokalise.com",
+      "team_id": 291166,
+      "base_language_id": 640,
+      "base_language_iso": "en",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": false,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": false,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 40,
+        "keys_total": 3,
+        "team": 2,
+        "base_words": 11,
+        "qa_issues_total": 24,
+        "qa_issues": {
+          "not_reviewed": 15,
+          "unverified": 9,
+          "spelling_grammar": 0,
+          "inconsistent_placeholders": 0,
+          "inconsistent_html": 0,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 0,
+          "trailing_whitespace": 0,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 666,
+            "language_iso": "de",
+            "progress": 0,
+            "words_to_do": 11
+          },
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 100,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 1056,
+            "language_iso": "es",
+            "progress": 0,
+            "words_to_do": 11
+          },
+          {
+            "language_id": 10153,
+            "language_iso": "lv",
+            "progress": 100,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 769,
+            "language_iso": "uk",
+            "progress": 0,
+            "words_to_do": 11
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "4161488162ced23ae34311.49174005",
+      "project_type": "localization_files",
+      "name": "Arturs Skutans’s first project",
+      "description": "",
+      "created_at": "2022-07-13 14:10:02 (Etc/UTC)",
+      "created_at_timestamp": 1657721402,
+      "created_by": 152429,
+      "created_by_email": "creemy002@gmail.com",
+      "team_id": 282875,
+      "base_language_id": 640,
+      "base_language_iso": "en",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": false,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": false,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 50,
+        "keys_total": 2575,
+        "team": 1,
+        "base_words": 17165,
+        "qa_issues_total": 7725,
+        "qa_issues": {
+          "not_reviewed": 5150,
+          "unverified": 2575,
+          "spelling_grammar": 0,
+          "inconsistent_placeholders": 0,
+          "inconsistent_html": 0,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 0,
+          "trailing_whitespace": 0,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 100,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 1056,
+            "language_iso": "es",
+            "progress": 1,
+            "words_to_do": 17145
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "358902516470c7e64ec950.73762450",
+      "project_type": "localization_files",
+      "name": "Figma testing",
+      "description": "",
+      "created_at": "2023-05-26 14:53:26 (Etc/UTC)",
+      "created_at_timestamp": 1685112806,
+      "created_by": 152429,
+      "created_by_email": "creemy002@gmail.com",
+      "team_id": 291166,
+      "base_language_id": 640,
+      "base_language_iso": "en",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": false,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": false,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 50,
+        "keys_total": 4,
+        "team": 2,
+        "base_words": 4,
+        "qa_issues_total": 13,
+        "qa_issues": {
+          "not_reviewed": 8,
+          "unverified": 4,
+          "spelling_grammar": 0,
+          "inconsistent_placeholders": 0,
+          "inconsistent_html": 0,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 0,
+          "trailing_whitespace": 1,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 100,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 10153,
+            "language_iso": "lv",
+            "progress": 0,
+            "words_to_do": 4
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "547789686262a0f1814c36.15602735",
+      "project_type": "localization_files",
+      "name": "Full Test project",
+      "description": "",
+      "created_at": "2022-04-22 12:34:57 (Etc/UTC)",
+      "created_at_timestamp": 1650630897,
+      "created_by": 162459,
+      "created_by_email": "arturs.skutans@lokalise.com",
+      "team_id": 291166,
+      "base_language_id": 640,
+      "base_language_iso": "en",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": false,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": true,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 8,
+        "keys_total": 5383,
+        "team": 2,
+        "base_words": 27099,
+        "qa_issues_total": 135165,
+        "qa_issues": {
+          "not_reviewed": 69773,
+          "unverified": 64673,
+          "spelling_grammar": 603,
+          "inconsistent_placeholders": 46,
+          "inconsistent_html": 15,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 6,
+          "trailing_whitespace": 49,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 10002,
+            "language_iso": "custom_2",
+            "progress": 1,
+            "words_to_do": 27034
+          },
+          {
+            "language_id": 10168,
+            "language_iso": "da_DK",
+            "progress": 1,
+            "words_to_do": 26775
+          },
+          {
+            "language_id": 672,
+            "language_iso": "de_DE",
+            "progress": 1,
+            "words_to_do": 26764
+          },
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 97,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 1055,
+            "language_iso": "en_US",
+            "progress": 1,
+            "words_to_do": 26781
+          },
+          {
+            "language_id": 673,
+            "language_iso": "fr",
+            "progress": 1,
+            "words_to_do": 26770
+          },
+          {
+            "language_id": 733,
+            "language_iso": "ko",
+            "progress": 1,
+            "words_to_do": 26814
+          },
+          {
+            "language_id": 800,
+            "language_iso": "lv_LV",
+            "progress": 1,
+            "words_to_do": 26781
+          },
+          {
+            "language_id": 739,
+            "language_iso": "nl_BE",
+            "progress": 1,
+            "words_to_do": 26882
+          },
+          {
+            "language_id": 743,
+            "language_iso": "nl_NL",
+            "progress": 1,
+            "words_to_do": 26772
+          },
+          {
+            "language_id": 10001,
+            "language_iso": "reference",
+            "progress": 1,
+            "words_to_do": 27097
+          },
+          {
+            "language_id": 600,
+            "language_iso": "ru_RU",
+            "progress": 1,
+            "words_to_do": 26781
+          },
+          {
+            "language_id": 609,
+            "language_iso": "zh_Hant_TW",
+            "progress": 1,
+            "words_to_do": 26826
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "8293961162678a1e186ca1.93115341",
+      "project_type": "localization_files",
+      "name": "Glossary",
+      "description": "",
+      "created_at": "2022-04-26 05:58:54 (Etc/UTC)",
+      "created_at_timestamp": 1650952734,
+      "created_by": 162459,
+      "created_by_email": "arturs.skutans@lokalise.com",
+      "team_id": 291166,
+      "base_language_id": 1055,
+      "base_language_iso": "en_US",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": false,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": false,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 0,
+        "keys_total": 0,
+        "team": 2,
+        "base_words": 0,
+        "qa_issues_total": 0,
+        "qa_issues": {
+          "not_reviewed": 0,
+          "unverified": 0,
+          "spelling_grammar": 0,
+          "inconsistent_placeholders": 0,
+          "inconsistent_html": 0,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 0,
+          "trailing_whitespace": 0,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 767,
+            "language_iso": "da",
+            "progress": 0,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 666,
+            "language_iso": "de",
+            "progress": 0,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 0,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 1055,
+            "language_iso": "en_US",
+            "progress": 0,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 673,
+            "language_iso": "fr",
+            "progress": 0,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 800,
+            "language_iso": "lv_LV",
+            "progress": 0,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 760,
+            "language_iso": "no",
+            "progress": 0,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 600,
+            "language_iso": "ru_RU",
+            "progress": 0,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 754,
+            "language_iso": "sv",
+            "progress": 0,
+            "words_to_do": 0
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "47420854627a76ebb6a566.71280913",
+      "project_type": "localization_files",
+      "name": "Hubspot Project",
+      "description": "",
+      "created_at": "2022-05-10 14:30:03 (Etc/UTC)",
+      "created_at_timestamp": 1652193003,
+      "created_by": 162459,
+      "created_by_email": "arturs.skutans@lokalise.com",
+      "team_id": 291166,
+      "base_language_id": 640,
+      "base_language_iso": "en",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": false,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": false,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 58,
+        "keys_total": 17,
+        "team": 2,
+        "base_words": 54,
+        "qa_issues_total": 130,
+        "qa_issues": {
+          "not_reviewed": 85,
+          "unverified": 33,
+          "spelling_grammar": 3,
+          "inconsistent_placeholders": 0,
+          "inconsistent_html": 0,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 4,
+          "trailing_whitespace": 5,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 100,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 1055,
+            "language_iso": "en-us",
+            "progress": 0,
+            "words_to_do": 54
+          },
+          {
+            "language_id": 10153,
+            "language_iso": "lv",
+            "progress": 64,
+            "words_to_do": 19
+          },
+          {
+            "language_id": 597,
+            "language_iso": "ru",
+            "progress": 64,
+            "words_to_do": 19
+          },
+          {
+            "language_id": 754,
+            "language_iso": "sv",
+            "progress": 64,
+            "words_to_do": 19
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "74455646645b67ae4f9108.92595589",
+      "project_type": "localization_files",
+      "name": "owner role test",
+      "description": "",
+      "created_at": "2023-05-10 09:45:18 (Etc/UTC)",
+      "created_at_timestamp": 1683711918,
+      "created_by": 152429,
+      "created_by_email": "creemy002@gmail.com",
+      "team_id": 291166,
+      "base_language_id": 640,
+      "base_language_iso": "en",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": false,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": false,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 0,
+        "keys_total": 0,
+        "team": 2,
+        "base_words": 0,
+        "qa_issues_total": 0,
+        "qa_issues": {
+          "not_reviewed": 0,
+          "unverified": 0,
+          "spelling_grammar": 0,
+          "inconsistent_placeholders": 0,
+          "inconsistent_html": 0,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 0,
+          "trailing_whitespace": 0,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 894,
+            "language_iso": "ab",
+            "progress": 0,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 0,
+            "words_to_do": 0
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "528169356387739f6e51e5.10703635",
+      "project_type": "localization_files",
+      "name": "projA",
+      "description": "",
+      "created_at": "2022-11-30 15:15:43 (Etc/UTC)",
+      "created_at_timestamp": 1669821343,
+      "created_by": 162459,
+      "created_by_email": "arturs.skutans@lokalise.com",
+      "team_id": 291166,
+      "base_language_id": 640,
+      "base_language_iso": "en",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": false,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": false,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 5,
+        "keys_total": 78,
+        "team": 2,
+        "base_words": 735,
+        "qa_issues_total": 3129,
+        "qa_issues": {
+          "not_reviewed": 1616,
+          "unverified": 1496,
+          "spelling_grammar": 13,
+          "inconsistent_placeholders": 0,
+          "inconsistent_html": 0,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 0,
+          "trailing_whitespace": 4,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 10001,
+            "language_iso": "aa",
+            "progress": 0,
+            "words_to_do": 735
+          },
+          {
+            "language_id": 815,
+            "language_iso": "bn",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 10168,
+            "language_iso": "da_DK",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 666,
+            "language_iso": "de",
+            "progress": 1,
+            "words_to_do": 721
+          },
+          {
+            "language_id": 672,
+            "language_iso": "de_DE",
+            "progress": 1,
+            "words_to_do": 733
+          },
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 100,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 10222,
+            "language_iso": "en_DE",
+            "progress": 1,
+            "words_to_do": 733
+          },
+          {
+            "language_id": 1055,
+            "language_iso": "en_US",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 1056,
+            "language_iso": "es",
+            "progress": 1,
+            "words_to_do": 721
+          },
+          {
+            "language_id": 665,
+            "language_iso": "es_ES",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 673,
+            "language_iso": "fr",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 10201,
+            "language_iso": "hi",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 810,
+            "language_iso": "hy",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 10202,
+            "language_iso": "kn",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 800,
+            "language_iso": "lv_LV",
+            "progress": 1,
+            "words_to_do": 723
+          },
+          {
+            "language_id": 743,
+            "language_iso": "nl_NL",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 597,
+            "language_iso": "ru",
+            "progress": 1,
+            "words_to_do": 730
+          },
+          {
+            "language_id": 600,
+            "language_iso": "ru_RU",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 936,
+            "language_iso": "ta",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 10204,
+            "language_iso": "te",
+            "progress": 1,
+            "words_to_do": 731
+          },
+          {
+            "language_id": 601,
+            "language_iso": "zh_TW",
+            "progress": 1,
+            "words_to_do": 731
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "9007569563b467033b8f01.76520769",
+      "project_type": "localization_files",
+      "name": "projD",
+      "description": "",
+      "created_at": "2023-01-03 17:33:55 (Etc/UTC)",
+      "created_at_timestamp": 1672767235,
+      "created_by": 162459,
+      "created_by_email": "arturs.skutans@lokalise.com",
+      "team_id": 291166,
+      "base_language_id": 640,
+      "base_language_iso": "en",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": true,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": false,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 48,
+        "keys_total": 5,
+        "team": 2,
+        "base_words": 12,
+        "qa_issues_total": 47,
+        "qa_issues": {
+          "not_reviewed": 28,
+          "unverified": 16,
+          "spelling_grammar": 1,
+          "inconsistent_placeholders": 2,
+          "inconsistent_html": 0,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 0,
+          "trailing_whitespace": 0,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 714,
+            "language_iso": "ar",
+            "progress": 50,
+            "words_to_do": 6
+          },
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 100,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 10001,
+            "language_iso": "en_custom",
+            "progress": 16,
+            "words_to_do": 10
+          },
+          {
+            "language_id": 1056,
+            "language_iso": "es",
+            "progress": 58,
+            "words_to_do": 5
+          },
+          {
+            "language_id": 10002,
+            "language_iso": "fr_custom",
+            "progress": 8,
+            "words_to_do": 11
+          },
+          {
+            "language_id": 10153,
+            "language_iso": "lv",
+            "progress": 58,
+            "words_to_do": 5
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "594084616409e3f0c8e183.24945109",
+      "project_type": "localization_files",
+      "name": "Task reminder test",
+      "description": "",
+      "created_at": "2023-03-09 13:49:36 (Etc/UTC)",
+      "created_at_timestamp": 1678369776,
+      "created_by": 162459,
+      "created_by_email": "arturs.skutans@lokalise.com",
+      "team_id": 291166,
+      "base_language_id": 640,
+      "base_language_iso": "en",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": false,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": false,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 25,
+        "keys_total": 2,
+        "team": 2,
+        "base_words": 3,
+        "qa_issues_total": 15,
+        "qa_issues": {
+          "not_reviewed": 8,
+          "unverified": 6,
+          "spelling_grammar": 1,
+          "inconsistent_placeholders": 0,
+          "inconsistent_html": 0,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 0,
+          "trailing_whitespace": 0,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 10001,
+            "language_iso": "custom_1",
+            "progress": 0,
+            "words_to_do": 3
+          },
+          {
+            "language_id": 666,
+            "language_iso": "de",
+            "progress": 0,
+            "words_to_do": 3
+          },
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 100,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 10153,
+            "language_iso": "lv",
+            "progress": 0,
+            "words_to_do": 3
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "2487910663f609fa955e78.97839748",
+      "project_type": "localization_files",
+      "name": "Xliff upload error",
+      "description": "",
+      "created_at": "2023-02-22 12:26:34 (Etc/UTC)",
+      "created_at_timestamp": 1677068794,
+      "created_by": 162459,
+      "created_by_email": "arturs.skutans@lokalise.com",
+      "team_id": 291166,
+      "base_language_id": 1055,
+      "base_language_iso": "en_US",
+      "settings": {
+        "per_platform_key_names": false,
+        "reviewing": true,
+        "auto_toggle_unverified": true,
+        "offline_translation": true,
+        "key_editing": true,
+        "inline_machine_translations": true,
+        "branching": false,
+        "segmentation": false,
+        "custom_translation_statuses": false,
+        "custom_translation_statuses_allow_multiple": false
+      },
+      "statistics": {
+        "progress_total": 43,
+        "keys_total": 4,
+        "team": 2,
+        "base_words": 6,
+        "qa_issues_total": 22,
+        "qa_issues": {
+          "not_reviewed": 14,
+          "unverified": 8,
+          "spelling_grammar": 0,
+          "inconsistent_placeholders": 0,
+          "inconsistent_html": 0,
+          "different_number_of_urls": 0,
+          "different_urls": 0,
+          "leading_whitespace": 0,
+          "trailing_whitespace": 0,
+          "different_number_of_email_address": 0,
+          "different_email_address": 0,
+          "different_brackets": 0,
+          "different_numbers": 0,
+          "double_space": 0,
+          "special_placeholder": 0,
+          "unbalanced_brackets": 0
+        },
+        "languages": [
+          {
+            "language_id": 640,
+            "language_iso": "en",
+            "progress": 33,
+            "words_to_do": 4
+          },
+          {
+            "language_id": 610,
+            "language_iso": "en_GB",
+            "progress": 33,
+            "words_to_do": 4
+          },
+          {
+            "language_id": 1055,
+            "language_iso": "en_US",
+            "progress": 75,
+            "words_to_do": 0
+          },
+          {
+            "language_id": 10156,
+            "language_iso": "fi_FI",
+            "progress": 33,
+            "words_to_do": 4
+          }
+        ]
+      }
+    }
+  ]
+}
