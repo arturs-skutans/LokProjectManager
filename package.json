@@ -12,6 +12,7 @@
   "dependencies": {
     "@lokalise/louis": "^17.4.0",
     "axios": "^1.4.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",

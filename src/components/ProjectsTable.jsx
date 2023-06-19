@@ -13,6 +13,9 @@ import {
   Button,
 } from "@lokalise/louis";
 import ProjectItem from "./ProjectItem";
+import emptyProject from "../services/emptyProject";
+import deleteProject from "../services/deleteProject";
+import fetchProjects from "../services/fetchProjects";
 
 function ProjectsTable(props) {
   const [selected, setSelected] = useState([]);
@@ -23,7 +26,8 @@ function ProjectsTable(props) {
     { value: "empty", label: "Empty" },
   ];
 
-  const { projects } = props;
+  const { projects, token } = props;
+  const tokenString = String(token);
 
   const handleSelected = (item) => {
     if (selected.includes(item)) {
@@ -35,6 +39,37 @@ function ProjectsTable(props) {
     } else {
       // Append the item to the array
       setSelected([...selected, item]);
+    }
+  };
+
+  const handleAction = async () => {
+    if (action.value === "delete") {
+      await deleteSelectedProjects();
+    } else if (action.value === "empty") {
+      await emptySelectedProjects();
+    } else {
+      return null;
+    }
+    await fetchProjects();
+  };
+
+  const deleteSelectedProjects = async (tokenString) => {
+    try {
+      const deletePromises = selected.map((item) => deleteProject(item, token));
+      await Promise.all(deletePromises);
+      console.log("All projects have been deleted successfully.");
+    } catch (error) {
+      console.error("An error occurred while deleting projects:", error);
+    }
+  };
+
+  const emptySelectedProjects = async (tokenString) => {
+    try {
+      const emptyPromises = selected.map((item) => emptyProject(item, token));
+      await Promise.all(emptyPromises);
+      console.log("All projects have been emptied successfully.");
+    } catch (error) {
+      console.error("An error occurred while emptying projects:", error);
     }
   };
 
@@ -59,7 +94,11 @@ function ProjectsTable(props) {
                   />
                 </Flex>
                 <Flex as="div">
-                  <Button>Confirm</Button>
+                  {action && (
+                    <Button onClick={handleAction}>
+                      {action.label} selected projects
+                    </Button>
+                  )}
                 </Flex>
               </Flex>
             </Flex>

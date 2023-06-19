@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import { Flex } from "@lokalise/louis";
 import fetchProjects from "./services/fetchProjects";
@@ -17,6 +17,19 @@ function App() {
     setProjects(response.projects);
   };
 
+  useEffect(() => {
+    const savedToken = localStorage.getItem("token");
+    if (savedToken) {
+      setToken(savedToken);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (token) {
+      handleFetchProjects();
+    }
+  }, [token]);
+
   return (
     <Flex justify="flex-center">
       <GetProjectsForm
@@ -25,7 +38,7 @@ function App() {
         fetchProjects={handleFetchProjects}
       />
       <Flex align="flex-start">
-        {projects && <ProjectsTable projects={projects} />}
+        {projects && <ProjectsTable projects={projects} token={token} />}
       </Flex>
     </Flex>
   );

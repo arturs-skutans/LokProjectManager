@@ -4,6 +4,7 @@ import { Flex, Input, Label, Button } from "@lokalise/louis";
 
 function GetProjectsForm(props) {
   const { token, setToken, fetchProjects } = props;
+
   return (
     <Flex
       direction="column"

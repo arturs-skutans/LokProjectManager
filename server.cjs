@@ -35,6 +35,69 @@ app.get("/projects", async (req, res) => {
   }
 });
 
+app.put("/projects/:projectId/empty", async (req, res) => {
+  const { projectId } = req.params;
+
+  try {
+    const options = {
+      headers: {
+        "X-Api-Token": req.header("X-Api-Token"),
+        accept: "application/json",
+      },
+    };
+
+    const response = await axios.put(
+      `https://api.lokalise.com/api2/projects/${projectId}/empty`,
+      null,
+      options
+    );
+
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Methods", "PUT");
+    res.header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    );
+    res.json(response.data);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      error: "An error occurred while emptying the project server.cjs",
+    });
+  }
+});
+
+app.delete("/projects/:projectId/empty", async (req, res) => {
+  const { projectId } = req.params;
+
+  try {
+    const options = {
+      headers: {
+        "X-Api-Token": req.header("X-Api-Token"),
+        accept: "application/json",
+      },
+    };
+
+    const response = await axios.delete(
+      `https://api.lokalise.com/api2/projects/${projectId}`,
+      options
+    );
+
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Methods", "PUT");
+    res.header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    );
+    res.json(response.data);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      error: "An error occurred while emptying the project server.cjs",
+    });
+  }
+});
+
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
