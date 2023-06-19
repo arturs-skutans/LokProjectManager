@@ -80,7 +80,7 @@ function ProjectsTable(props) {
           <TableHeaderCell align="left">
             <Flex direction="column" gap="5">
               <div>
-                <Label className="h1">Projects</Label>
+                <Label className="h1">Projects ({projects.length})</Label>
               </div>
               <Flex as="div" direction="row" gap="3">
                 <Flex as="div">

@@ -17,7 +17,7 @@ app.get("/projects", async (req, res) => {
   };
   try {
     const response = await axios.get(
-      "https://api.lokalise.com/api2/projects",
+      "https://api.lokalise.com/api2/projects?include_settings=0&limit=500",
       options
     );
     res.header("Access-Control-Allow-Origin", "*");
