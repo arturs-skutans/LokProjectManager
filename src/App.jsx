@@ -31,13 +31,13 @@ function App() {
   }, [token]);
 
   return (
-    <Flex justify="flex-center">
+    <Flex>
       <GetProjectsForm
         token={token}
         setToken={setToken}
         fetchProjects={handleFetchProjects}
       />
-      <Flex align="flex-start">
+      <Flex>
         {projects && <ProjectsTable projects={projects} token={token} />}
       </Flex>
     </Flex>

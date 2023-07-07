@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../App.css";
 import {
   Flex,
@@ -30,6 +30,12 @@ function ProjectItem(props) {
   const handleExpanded = () => {
     setExpanded(!expanded);
   };
+
+  useEffect(() => {
+    if (selectAll) {
+      props.handleSelected(project.project_id);
+    }
+  }, [selectAll]);
 
   return (
     <TableRow
