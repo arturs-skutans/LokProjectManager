@@ -4,6 +4,13 @@
 
 > LokPM is a tool which helps managing your Lokalise projects and offers bulk empty and bulk delete options
 
+![alt text](https://i.ibb.co/q92t8Fx/Screenshot-2023-07-19-at-16-46-34-Lok-PM.png)
+
+## Prerequisites
+
+- [VS Code](https://code.visualstudio.com/) or alternative
+- [Node.js](https://nodejs.org/en) (latest)
+
 ## Install
 
 To install the required dependencies, run the following command:
