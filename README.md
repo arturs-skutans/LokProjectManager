@@ -10,6 +10,7 @@
 
 - [VS Code](https://code.visualstudio.com/) or alternative
 - [Node.js](https://nodejs.org/en) (latest)
+- Lokalise API token (read/write)
 
 ## Install
 
