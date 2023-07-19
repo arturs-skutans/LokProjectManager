@@ -5,6 +5,12 @@ import { Flex, Input, Label, Button } from "@lokalise/louis";
 function GetProjectsForm(props) {
   const { token, setToken, fetchProjects } = props;
 
+  const handleTokenChange = (e) => {
+    const newToken = e.target.value;
+    setToken(newToken);
+    localStorage.setItem("token", newToken); // Save token to localStorage
+  };
+
   return (
     <Flex
       direction="column"
@@ -29,7 +35,7 @@ function GetProjectsForm(props) {
           <Input
             placeholder="API token"
             value={token}
-            onChange={(e) => setToken(e.target.value)}
+            onChange={handleTokenChange}
           />
         </div>
         <div>

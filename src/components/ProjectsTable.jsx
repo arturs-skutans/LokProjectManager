@@ -23,7 +23,6 @@ function ProjectsTable(props) {
   const [selected, setSelected] = useState([]);
   const [action, setAction] = useState();
   const [searchInput, setSearchInput] = useState("");
-  const [selectAll, setSelectAll] = useState(false);
 
   const optionsArray = [
     { value: "delete", label: "Delete" },
@@ -34,20 +33,15 @@ function ProjectsTable(props) {
   const tokenString = String(token);
 
   const handleSelected = (item) => {
-    if (selectAll) {
-      setSelected([]);
-      setSelectAll(false);
+    if (selected.includes(item)) {
+      // Remove the item from the array
+      const updatedSelected = selected.filter(
+        (selectedItem) => selectedItem !== item
+      );
+      setSelected(updatedSelected);
     } else {
-      if (selected.includes(item)) {
-        // Remove the item from the array
-        const updatedSelected = selected.filter(
-          (selectedItem) => selectedItem !== item
-        );
-        setSelected(updatedSelected);
-      } else {
-        // Append the item to the array
-        setSelected([...selected, item]);
-      }
+      // Append the item to the array
+      setSelected([...selected, item]);
     }
   };
 
@@ -99,12 +93,6 @@ function ProjectsTable(props) {
                 </Flex>
                 <Flex as="div" direction="row" gap="3" align="center">
                   <div>
-                    <Checkbox
-                      checked={selectAll}
-                      onChange={() => setSelectAll(!selectAll)}
-                    />
-                  </div>
-                  <div>
                     <Label className="h2">Selected ({selected.length})</Label>
                   </div>
                 </Flex>
@@ -149,7 +137,6 @@ function ProjectsTable(props) {
                 key={project.project_id}
                 project={project}
                 handleSelected={handleSelected}
-                selectAll={selectAll}
               />
             ))}
         {projects.length <= 0 && (

@@ -1,20 +1,29 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import { Flex } from "@lokalise/louis";
+import { Flex, Loading, Button } from "@lokalise/louis";
 import fetchProjects from "./services/fetchProjects";
 import GetProjectsForm from "./components/GetProjectsForm";
 import ProjectsTable from "./components/ProjectsTable";
+
 // import { projects } from "./test.json";
 
 function App() {
+  const [loading, setLoading] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const [projects, setProjects] = useState(null);
   const [token, setToken] = useState("");
 
   const handleFetchProjects = async () => {
+    setLoading(true);
     const response = await fetchProjects(token);
-    console.log(response.projects);
     setProjects(response.projects);
+    setLoading(false);
+    setLoaded(true);
+  };
+
+  const resetToken = () => {
+    localStorage.removeItem("token");
+    setLoaded(false);
   };
 
   useEffect(() => {
@@ -24,19 +33,18 @@ function App() {
     }
   }, []);
 
-  useEffect(() => {
-    if (token) {
-      handleFetchProjects();
-    }
-  }, [token]);
-
   return (
     <Flex>
-      <GetProjectsForm
-        token={token}
-        setToken={setToken}
-        fetchProjects={handleFetchProjects}
-      />
+      {!loaded && (
+        <GetProjectsForm
+          token={token}
+          setToken={setToken}
+          fetchProjects={handleFetchProjects}
+          setLoading={setLoading}
+        />
+      )}
+      {loaded && <Button onClick={resetToken}>Set new token</Button>}
+      {loading && <Loading />}
       <Flex>
         {projects && <ProjectsTable projects={projects} token={token} />}
       </Flex>

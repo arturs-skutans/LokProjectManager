@@ -31,12 +31,6 @@ function ProjectItem(props) {
     setExpanded(!expanded);
   };
 
-  useEffect(() => {
-    if (selectAll) {
-      props.handleSelected(project.project_id);
-    }
-  }, [selectAll]);
-
   return (
     <TableRow
       key={project.project_id}
