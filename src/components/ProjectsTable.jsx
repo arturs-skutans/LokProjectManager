@@ -12,7 +12,7 @@ import {
   Select,
   Button,
   Input,
-  Checkbox,
+  Loading,
 } from "@lokalise/louis";
 import ProjectItem from "./ProjectItem";
 import emptyProject from "../services/emptyProject";
@@ -47,13 +47,17 @@ function ProjectsTable(props) {
 
   const handleAction = async () => {
     if (action.value === "delete") {
+      props.setLoading(true);
       await deleteSelectedProjects();
+      setSelected([]);
     } else if (action.value === "empty") {
+      props.setLoading(true);
       await emptySelectedProjects();
     } else {
       return null;
     }
-    await fetchProjects();
+    props.setLoading(false);
+    props.fetchProjects();
   };
 
   const deleteSelectedProjects = async (tokenString) => {
@@ -125,6 +129,16 @@ function ProjectsTable(props) {
         </TableRow>
       </TableHeader>
       <TableBody>
+        <TableRow>
+          {projects.length <= 0 && (
+            <TableRow>
+              <Spacer horizontal={10} vertical={5}>
+                <Label className="h2">There are no projects yet</Label>
+              </Spacer>
+            </TableRow>
+          )}
+          {props.loading && <Loading />}
+        </TableRow>
         {projects &&
           projects
             .filter((project) => {
@@ -139,11 +153,6 @@ function ProjectsTable(props) {
                 handleSelected={handleSelected}
               />
             ))}
-        {projects.length <= 0 && (
-          <Spacer horizontal={10} vertical={5}>
-            <Label className="h2">There are no projects yet</Label>
-          </Spacer>
-        )}
       </TableBody>
     </Table>
   );

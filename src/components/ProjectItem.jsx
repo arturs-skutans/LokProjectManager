@@ -127,7 +127,7 @@ function ProjectItem(props) {
                   <Label>Languages: </Label>
                 </div>
                 {project.statistics.languages.map((item) => (
-                  <div>
+                  <div key={item.language_iso}>
                     <Tag>
                       {item.language_iso} – {item.progress}%
                     </Tag>

@@ -46,7 +46,15 @@ function App() {
       {loaded && <Button onClick={resetToken}>Set new token</Button>}
       {loading && <Loading />}
       <Flex>
-        {projects && <ProjectsTable projects={projects} token={token} />}
+        {projects && (
+          <ProjectsTable
+            projects={projects}
+            token={token}
+            loading={loading}
+            setLoading={setLoading}
+            fetchProjects={handleFetchProjects}
+          />
+        )}
       </Flex>
     </Flex>
   );

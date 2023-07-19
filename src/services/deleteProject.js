@@ -14,7 +14,7 @@ const deleteProject = async (projectId, token) => {
     return response.data;
   } catch (error) {
     console.error(error);
-    throw new Error("An error occurred while deleting the project");
+    throw new Error(error);
   }
 };
 
